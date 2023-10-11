@@ -64,6 +64,7 @@
                                 <annotationProcessor>org.checkerframework.checker.tainting.TaintingChecker</annotationProcessor>
                             </annotationProcessors>
                             <compilerArgs>
+<!--                                <arg>-Astubs="/Users/kknock/RIPLE/taint/summer/stubs/"</arg>-->
                                 <!-- <arg>-Awarns</arg> --> <!-- -Awarns turns type-checking errors into warnings. -->
                             </compilerArgs>
                         </configuration>
